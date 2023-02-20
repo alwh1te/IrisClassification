@@ -7,9 +7,6 @@ iris = datasets.load_iris()
 dataset = [(iris.data[i][None, ...], iris.target[i])for i in range(len(iris.target))]
 
 
-
-f = open("Iris.csv").readlines()
-
 input_dim = 4
 out_dim = 3
 h_dim = 10
